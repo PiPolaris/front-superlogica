@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="A front-end test for Superlógica.">
+
+    <title>Superlógica</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+
+    
+</head>
+<body>
+    <section class="header-section" id="header">
+        <header>
+            <div>
+                <a href="index.html"><img src="assets/img/superlogica.svg" alt="Superlógica"></a>
+                <button name="hamburguer" aria-label="hamburguer" class="navbar--hamburguer" onclick="hamburguer()">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul class="navbar" id="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Eventos</a></li>
+            </ul>
+            <div class="login" id="login">
+                <a href="">Entrar</a>
+                <button class="button button--tertiary"><span>Experimente Grátis</span> <img src="assets/img/arrow-right-small.svg" alt="Experimente Grátis"></button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <h1 class="title">Uma nova forma de fazer negócios.</h1>
+            <p class="description">A Superlógica oferece um sistema completo para sua empresa escalar na era digital.</p>
+            <button class="button button--secondary">Saiba mais</button>
+        </div>
+
+        <form action="POST">
+            <p>Preencha o formulário e receba um kit exclusivo</p>
+            <input id="name" aria-label="name" name="name" type="text" placeholder="Nome">
+            <input id="email" aria-label="email" name="email" type="text" placeholder="E-mail">
+            <input id="phone" aria-label="phone" name="phone" type="text" placeholder="Telefone">
+            <button name="send" type="submit" class="button button--primary"><span>Enviar</span></button>
+        </form>
+    </section>
+    <section class="middle-section">
+        <div class="card">
+            <img class="icon" src="assets/img/cloud-color.svg" alt="">
+            <h1>Plano A</h1>
+            <h2>134</h2>
+            <span class="note">+ Taxa de adesão</span>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Consectetur adipiscing elit.</p>
+            <p>Maecenas varius tortor nibh</p>
+            <button class="button button--primary">
+                <img src="assets/img/cart-white.svg" alt="Comprar"> 
+                <span>Comprar</span>
+            </button>
+        </div>
+
+        <div class="card">
+            <img class="icon" src="assets/img/cloud-color.svg" alt="">
+            <h1>Plano B</h1>
+            <h2>134</h2>
+            <span class="note">+ Taxa de adesão</span>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Consectetur adipiscing elit.</p>
+            <p>Maecenas varius tortor nibh</p>
+            <button class="button button--primary">
+                <img src="assets/img/cart-white.svg" alt="Comprar"> 
+                <span>Comprar</span>
+            </button>
+        </div>
+
+        <div>
+            <div class="card card--sup">
+                <p>MELHOR CUSTO-BENEFÍCIO</p>
+            </div>
+            <div class="card card--dark">
+                <img class="icon" src="assets/img/cloud-white.svg" alt="">
+                <h1>Plano C</h1>
+                <h2>134</h2>
+                <span class="note">+ Taxa de adesão</span>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p>Consectetur adipiscing elit.</p>
+                <p>Maecenas varius tortor nibh</p>
+                <button class="button button--secondary">
+                    <img src="assets/img/cart.svg" alt="Comprar"> 
+                    <span>Comprar</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="carousel">
+            <div class="slide-content">
+                <h1>Bom teste.</h1>
+                <a href="#header"> <button class="button button--secondary">Voltar para o topo</button></a>
+            </div>
+            <div></div>
+            <div></div>
+        </div>                   
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
